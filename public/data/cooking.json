@@ -1,0 +1,437 @@
+{
+  "GRILLED MEAT VEGETABLES": {
+    "Grilled Meat": {
+      "Price": 10,
+      "Available": true,
+      "OnHand": 8,
+      "Nutrition": "Energy: 109.3 Cal. | Proteins: 4.7 g. | Carbs: 22.2 g. | Fats: 184.9 mg. | Water: 148.6 g"
+    },
+    "Grilled Rabbit Legs": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Grilled Poultry Meat": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Energy: 238.0 Cal. | Proteins: 29.0 g. | Carbs: 215.4 mg. | Fats: 13.5 g. | Water: 121.7 g."
+    },
+    "Grilled Poultry Drumsticks": {
+      "Price": 10,
+      "Available": true,
+      "OnHand": 2,
+      "Nutrition": "Energy: 357.1 Cal. | Proteins: 43.5 g. | Carbs: 323.3 mg. | Fats: 20.2 g. | Water: 182.7 g."
+    },
+    "Burger": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Cheeseburger": {
+      "Price": 10,
+      "Available": true,
+      "OnHand": 15,
+      "Nutrition": "Coming Soon"
+    },
+    "Chevaps": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Sausages": {
+      "Price": 10,
+      "Available": true,
+      "OnHand": 8,
+      "Nutrition": "Energy: 109.3 Cal. | Proteins: 4.7 g. | Carbs: 22.2 g. Fats: 184.9 mg. | Water: 148.6 g"
+    },
+    "Fried Eggs": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Grilled Veggie": {
+      "Price": 10,
+      "Available": true,
+      "OnHand": 6,
+      "Nutrition": "Energy: 109.3 Cal. | Proteins: 4.7 g. | Carbs: 22.2 g. Fats: 184.9 mg. | Water: 148.6 g"
+    },
+    "Grilled Mushroom": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Grilled Fish": {
+      "Price": 10,
+      "Available": true,
+      "OnHand": 18,
+      "Nutrition": "Energy:  284.1 Cal. | Proteins: 60.2 g. | Fats: 4.8 g. | Water: 327.2 g."
+    }
+  },
+  "SKEWERS": {
+    "Meat Skewer": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Mixed Skewer": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Vegetable Skewer": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Energy: 226.5 Cal. | Proteins: 12.5 g. | Carbs: 42.4 g. | Fats: 769.0 mg. | Water:387.1 g."
+    }
+  },
+  "STEWS": {
+    "Meat Stew": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Goulash": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Jambalaya": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Fish Paprikash": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Brudet Seafood Stew": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Beans": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Sarma Cabbage rolls": {
+      "Price": 10,
+      "Available": true,
+      "OnHand": 7,
+      "Nutrition": "Coming Soon"
+    },
+    "Chili Con Carne": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    }
+  },
+  "CASSEROLES": {
+    "Lasagnas": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Dauphinoise Potatoes": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Štrukli Schtruekly Cheese loaves": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Moussaka": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Burek Börek Meat pie": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Sirnica Cheese pie": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Poultry Casserole": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Mac Cheese": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    }
+  },
+  "PASTA": {
+    "Pesto Penne Pasta": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Spaghetti Milanese": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Spaghetti Bolognese": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Veggie Pasta": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Mushroom pasta": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Seafood pasta": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Pizza Neapolitan": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Pizza Capriccioso": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Pizza Veggie": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Pizza Fungi": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Pizza Frutti di mare": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Pizza Hawaii": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Chow Mein": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Szechuan Noodles": {
+      "Price": 10,
+      "Available": true,
+      "OnHand": 10,
+      "Nutrition": "Coming Soon"
+    },
+    "Kung Pao Spaghetti": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    }
+  },
+  "RICE": {
+    "Black Pepper Poultry": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Fried Rice": {
+      "Price": 10,
+      "Available": true,
+      "OnHand": 3,
+      "Nutrition": "Coming Soon"
+    },
+    "Meat Broccoli Stir Fry": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "General Tso's Poultry": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Spicy Szechuan": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Chili Oiled Smashed Cucumbers": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Peking poultry": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Rice and Peas with Meat": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Đuveč Gyuvech Balkan Ratatouille": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Stuffed Peppers": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Curry with Rice": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    }
+  },
+  "SOUPS": {
+    "Chicken Soup": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Meat soup": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Tomato soup": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Hot And Sour soup": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Egg drops soup": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Mushroom soup": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Wonton soup": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    }
+  },
+  "CAKES": {
+    "Chocolate Roulade": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Cream slices Kremšnite": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Apple pie": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Banana cake": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Chocolate cake": {
+      "Price": 10,
+      "Available": true,
+      "OnHand": 5,
+      "Nutrition": "Coming Soon"
+    },
+    "Cheese cake": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Lamington cake": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Pancakes": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Baklava": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Fruit Cake": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Tea Cookies": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    },
+    "Bread": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Coming Soon"
+    }
+  },
+  "DRINKS": {
+    "Coffee Black": {
+      "Price": 10,
+      "Available": true,
+      "OnHand": 28,
+      "Nutrition": "Coming Soon"
+    },
+    "Espresso": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Energy: 278.8 Cal. Proteins: 4.5 g. Carbs: 49.1 g. Fats 7.2 g. Water: 236.6 g."
+    },
+    "Tea": {
+      "Price": 10,
+      "Available": true,
+      "OnHand": 8,
+      "Nutrition": "Energy: 224.5 Cal. Proteins: 700.8 mg. Carbs: 55.1 g. Fats: 161.5 mg. Water: 301.1 g"
+    },
+    "English Tea": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Energy: 260.8 Cal. Proteins: 3.2 g. Carbs: 54.6 g. Fats: 3.3 g. Water: 341.9 g."
+    },
+    "Hot Chocolate": {
+      "Price": 10,
+      "Available": false,
+      "Nutrition": "Energy: 425.5 Cal. Proteins: 10.2 g. Carbs: 52.8 g. Fats: 19.3 g. Water: 228.1 g"
+    }
+  }
+}
