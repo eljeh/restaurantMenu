@@ -1,0 +1,91 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title='Welcome to '>
+  <main>
+    <div class='container'>
+      <h1>Aggie's Restaurant Menu</h1>
+      <div id='menu'></div>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  main {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  .container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  .category {
+    margin-top: 20px;
+  }
+  .item {
+    margin-bottom: 10px;
+  }
+  .item h3 {
+    margin-bottom: 5px;
+  }
+</style>
+
+<script is='inline'>
+  // Fetch data from JSON file
+  fetch('/data/cooking.json')
+    .then((response) => response.json())
+    .then((data) => {
+      // Generate HTML content for menu
+      const menuContainer = document.getElementById('menu');
+
+      // Loop through categories
+      for (const category in data) {
+        if (data.hasOwnProperty(category)) {
+          const categoryData = data[category];
+          const categoryDiv = document.createElement('div');
+          categoryDiv.classList.add('category');
+
+          // Create heading for category
+          const categoryHeading = document.createElement('h2');
+          categoryHeading.textContent = category;
+          categoryDiv.appendChild(categoryHeading);
+
+          // Loop through items in the category
+          for (const item in categoryData) {
+            if (categoryData.hasOwnProperty(item)) {
+              const itemData = categoryData[item];
+              const itemDiv = document.createElement('div');
+              itemDiv.classList.add('item');
+
+              // Create heading for item
+              const itemHeading = document.createElement('h3');
+              itemHeading.textContent = item;
+              itemDiv.appendChild(itemHeading);
+
+              // Create paragraph for item details
+              const itemDetails = document.createElement('p');
+              itemDetails.textContent = `Price: ${itemData.Price} | Available: ${itemData.Available} | Nutrition: ${itemData.Nutrition}`;
+              itemDiv.appendChild(itemDetails);
+
+              // Append item div to category div
+              categoryDiv.appendChild(itemDiv);
+            }
+          }
+
+          // Append category div to menu container
+          menuContainer.appendChild(categoryDiv);
+        }
+      }
+    })
+    .catch((error) => console.error('Error fetching menu data:', error));
+</script>
