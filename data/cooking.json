@@ -4,405 +4,547 @@
       "Price": 10,
       "Available": true,
       "OnHand": 8,
-      "Nutrition": "Energy: 109.3 Cal. | Proteins: 4.7 g. | Carbs: 22.2 g. | Fats: 184.9 mg. | Water: 148.6 g"
+      "Nutrition": "Energy: 109.3 Cal. | Proteins: 4.7 g. | Carbs: 22.2 g. | Fats: 184.9 mg. | Water: 148.6 g",
+      "Description": "Sizzling meat, cooked on a grill, reminiscent of a survivor's last meal in a zombie-infested world."
     },
     "Grilled Rabbit Legs": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Tender rabbit legs, charred to perfection on a grill, fit for a post-apocalyptic feast."
     },
     "Grilled Poultry Meat": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Energy: 238.0 Cal. | Proteins: 29.0 g. | Carbs: 215.4 mg. | Fats: 13.5 g. | Water: 121.7 g."
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Energy: 238.0 Cal. | Proteins: 29.0 g. | Carbs: 215.4 mg. | Fats: 13.5 g. | Water: 121.7 g.",
+      "Description": "Description Coming Soon"
     },
     "Grilled Poultry Drumsticks": {
       "Price": 10,
       "Available": true,
       "OnHand": 2,
-      "Nutrition": "Energy: 357.1 Cal. | Proteins: 43.5 g. | Carbs: 323.3 mg. | Fats: 20.2 g. | Water: 182.7 g."
+      "Nutrition": "Energy: 357.1 Cal. | Proteins: 43.5 g. | Carbs: 323.3 mg. | Fats: 20.2 g. | Water: 182.7 g.",
+      "Description": "Description Coming Soon"
     },
     "Burger": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A meat patty between two slices of bread."
     },
     "Cheeseburger": {
       "Price": 10,
       "Available": true,
       "OnHand": 15,
-      "Nutrition": "Coming Soon"
+      "Nutrition": "Coming Soon",
+      "Description": "A meaty delight, sandwiched between two slices of bread, with oozing cheese, perfect for a horror movie marathon."
     },
     "Chevaps": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A skinless sausage."
     },
     "Sausages": {
       "Price": 10,
       "Available": true,
       "OnHand": 8,
-      "Nutrition": "Energy: 109.3 Cal. | Proteins: 4.7 g. | Carbs: 22.2 g. Fats: 184.9 mg. | Water: 148.6 g"
+      "Nutrition": "Energy: 109.3 Cal. | Proteins: 4.7 g. | Carbs: 22.2 g. Fats: 184.9 mg. | Water: 148.6 g",
+      "Description": "Ground and seasoned meat stuffed inside a casing (usually intestines). A staple for survivors in a world overrun by the undead."
     },
     "Fried Eggs": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Eggs cooked in a pan."
     },
     "Grilled Veggie": {
       "Price": 10,
       "Available": true,
       "OnHand": 6,
-      "Nutrition": "Energy: 109.3 Cal. | Proteins: 4.7 g. | Carbs: 22.2 g. Fats: 184.9 mg. | Water: 148.6 g"
+      "Nutrition": "Energy: 109.3 Cal. | Proteins: 4.7 g. | Carbs: 22.2 g. Fats: 184.9 mg. | Water: 148.6 g",
+      "Description": "Vegetables charred over an open flame, a rare sight in a world overrun by zombies."
     },
     "Grilled Mushroom": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Mushrooms cooked on a grill."
     },
     "Grilled Fish": {
       "Price": 10,
       "Available": true,
       "OnHand": 18,
-      "Nutrition": "Energy:  284.1 Cal. | Proteins: 60.2 g. | Fats: 4.8 g. | Water: 327.2 g."
+      "Nutrition": "Energy: 284.1 Cal. | Proteins: 60.2 g. | Fats: 4.8 g. | Water: 327.2 g.",
+      "Description": "Fresh fish, grilled to perfection, offering a taste of normalcy in a world plagued by horror."
     }
   },
   "SKEWERS": {
     "Meat Skewer": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Bite-sized chunks of flesh impaled on a skewer, dripping with blood."
     },
     "Mixed Skewer": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A macabre combination of shredded meat and withered vegetables skewered together, reminiscent of the undead feast."
     },
     "Vegetable Skewer": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Energy: 226.5 Cal. | Proteins: 12.5 g. | Carbs: 42.4 g. | Fats: 769.0 mg. | Water:387.1 g."
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Energy: 226.5 Cal. | Proteins: 12., g. | Carbs: 42.4 g. | Fats: 769.0 mg. | Water:387.1 g.",
+      "Description": "Freshly harvested organs of the earth, speared and ready for consumption, a morbid delight for the discerning palate."
     }
   },
   "STEWS": {
     "Meat Stew": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A concoction of simmering flesh, bubbling ominously in a cauldron."
     },
     "Goulash": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Chunks of meat and ghastly vegetables, stewed in a pot of blood-red paprika."
     },
     "Jambalaya": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A sinister medley of meats and cursed vegetables, seasoned with haunting spices."
     },
     "Fish Paprikash": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Dreadful fish and cursed vegetables, drowning in a sea of blood-red paprika."
     },
     "Brudet Seafood Stew": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A nightmarish blend of seafood and cursed vegetables, ensnared in a web of paprika and terror."
     },
     "Beans": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A macabre fusion of beans and cursed vegetables, haunted by the essence of paprika."
     },
     "Sarma Cabbage rolls": {
       "Price": 10,
       "Available": true,
       "OnHand": 7,
-      "Nutrition": "Coming Soon"
+      "Nutrition": "Coming Soon",
+      "Description": "Cabbage rolls filled with the souls of the damned, simmering in a pot of horror and paprika."
     },
     "Chili Con Carne": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A chilling brew of meat and cursed vegetables, infused with the darkness of paprika."
     }
   },
   "CASSEROLES": {
     "Lasagnas": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A horrifying concoction of flesh and vegetables, tainted with blood-red paprika and cursed spices, straight from the underworld."
     },
     "Dauphinoise Potatoes": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Sinister slices of potatoes, drowned in a dark abyss of shadows and spices, a favorite among the undead."
     },
     "Štrukli Schtruekly Cheese loaves": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Cheese-infested loaves, wrapped in the fabric of nightmares, a feast fit for creatures of the night."
     },
     "Moussaka": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "An eerie ensemble of unearthly meats and haunted vegetables, seasoned with the whispers of ghosts and cursed paprika."
     },
     "Burek Börek Meat pie": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A sinister pie of meat and darkness, encased in layers of dread and seasoned with the tears of lost souls."
     },
     "Sirnica Cheese pie": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A ghastly pie of cursed cheese, bound together by the screams of the damned and the echoes of eternal torment."
     },
     "Poultry Casserole": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A terrifying amalgamation of foul poultry and haunted vegetables, a dish that beckons the spirits of the undead."
     },
     "Mac Cheese": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A macabre blend of cheese and darkness, a casserole that whispers the secrets of the abyss, seasoned with the essence of fear."
     }
   },
   "PASTA": {
     "Pesto Penne Pasta": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Pasta infused with a sinister green pesto sauce, rumored to have been conjured from cursed basil plants."
     },
     "Spaghetti Milanese": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Crafted from milled wheat and water, this spaghetti bears an eerie resemblance to the writhing tendrils of the underworld."
     },
     "Spaghetti Bolognese": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A blood-red sauce coats this pasta, rumored to contain the essence of long-lost souls."
     },
     "Veggie Pasta": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Pasta intertwined with sinister vegetables, a favorite among the vegetarian undead."
     },
     "Mushroom pasta": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Pasta shrouded in darkness, adorned with mushrooms that thrive in the shadows of the haunted forest."
     },
-    "Seafood pasta": {
+    "Seafood Pasta": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Pasta entwined with the tentacles of sea monsters, a dish that beckons from the depths of the abyss."
     },
-    "Pizza Neapolitan": {
+    "Pizza Necropolis": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A ghastly pizza adorned with the basic elements of the afterlife: raw tomatoes, fresh mozzarella, and basil harvested from haunted gardens."
     },
-    "Pizza Capriccioso": {
+    "Pizza Capricious": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Topped with ham, artichokes, mushrooms, and olives scavenged from the crypt, this pizza is a feast fit for the restless dead."
     },
     "Pizza Veggie": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A cursed dish from the depths of Jamaican lore, rumored to have been conjured by ancient witch doctors."
     },
     "Pizza Fungi": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A fungal pizza creation, with mushrooms that sprout from the decaying earth of forgotten graveyards."
     },
     "Pizza Frutti di mare": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A pizza adorned with seafood harvested from cursed waters, a delicacy among the undead."
     },
-    "Pizza Hawaii": {
+    "Pizza Hawaiian": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Topped with ham and pineapple, this pizza is a forbidden fusion of flavors from the underworld and tropical realms."
     },
     "Chow Mein": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Noodles fried with ingredients sourced from forbidden markets, rumored to be favored by ancient spirits."
     },
     "Szechuan Noodles": {
       "Price": 10,
       "Available": true,
       "OnHand": 10,
-      "Nutrition": "Coming Soon"
+      "Nutrition": "Coming Soon",
+      "Description": "Noodles infused with the fiery essence of ghostly peppers, a dish that ignites the senses and haunts the palate."
     },
     "Kung Pao Spaghetti": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Spaghetti twisted with infernal spices, a dish that dances with the spirits of the netherworld."
     }
   },
   "RICE": {
     "Black Pepper Poultry": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A dish made of poultry and black pepper, perfect for surviving the zombie apocalypse."
     },
     "Fried Rice": {
       "Price": 10,
       "Available": true,
       "OnHand": 3,
-      "Nutrition": "Coming Soon"
+      "Nutrition": "Coming Soon",
+      "Description": "A dish made of rice, fried with various ingredients, a staple for horror movie nights."
     },
     "Meat Broccoli Stir Fry": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A dish made of meat and broccoli, a terrifying combination for your taste buds."
     },
     "General Tso's Poultry": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Fiery sustenance for battling zombies with flavor-packed chicken and a blood-red sauce."
     },
     "Spicy Szechuan": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A zombie apocalypse-themed culinary experience where fiery flavors ignite survival instincts amidst the chaos of undead mayhem."
     },
     "Chili Oiled Smashed Cucumbers": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A dish made of cucumbers, smashed and seasoned with chili oil, a chilling snack for the undead."
     },
     "Peking poultry": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A breed of miniature chicken which has no large fowl counterpart, rumored to have been experimented on in zombie labs."
     },
     "Rice and Peas with Meat": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A traditional Jamaican dish, perfect for keeping the zombies at bay with its fiery flavors."
     },
     "Đuveč Gyuvech Balkan Ratatouille": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A dish made of peppers, stuffed with a filling often including meat and rice, a meal fit for vampire hunters."
     },
     "Stuffed Peppers": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A dish made of peppers, stuffed with a filling often including meat and rice, a sinister delight for your dinner table."
     },
     "Curry with Rice": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A dish originating in the Indian subcontinent, with flavors as mysterious as the depths of a horror movie plot."
     }
   },
   "SOUPS": {
     "Chicken Soup": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A sinister concoction infused with the essence of cursed chicken, rumored to have risen from the grave."
     },
     "Meat soup": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A ghastly brew crafted from the flesh of unknown creatures lurking in the shadows."
     },
     "Tomato soup": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A blood-red elixir extracted from the veins of the damned tomatoes haunting the forsaken fields."
     },
     "Hot And Sour soup": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A fiery and acidic potion brewed with ingredients harvested from cursed lands, designed to ignite the senses and torment the soul."
     },
     "Egg drops soup": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A sinister broth infused with the spectral essence of shattered eggs, a symbol of fragile mortality."
     },
     "Mushroom soup": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A haunting blend of fungi plucked from the depths of the haunted forest, rumored to induce visions of the beyond."
     },
     "Wonton soup": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A forbidden delicacy whispered to be filled with the trapped souls of ancient dumplings, seeking vengeance from the depths of the underworld."
     }
   },
   "CAKES": {
     "Chocolate Roulade": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A sinful creation, reminiscent of a decadent cake roll, perfect for indulging your zombie cravings."
     },
     "Cream slices Kremšnite": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Slices of creamy delight, like something out of a horror dessert scene, tempting even the undead."
     },
     "Apple pie": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A classic pie with a sinister twist, its aroma lures unsuspecting victims into its sweet, horrifying clutches."
     },
     "Banana cake": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A moist, banana-infused treat that beckons both the living and the undead with its eerie allure."
     },
     "Chocolate cake": {
       "Price": 10,
       "Available": true,
       "OnHand": 5,
-      "Nutrition": "Coming Soon"
+      "Nutrition": "Coming Soon",
+      "Description": "A dark, rich cake that seems to have crawled out from the depths of a horror-filled kitchen, tempting all who dare to taste."
     },
     "Cheese cake": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A hauntingly delicious dessert, its layers reminiscent of the layers of terror that lurk in the shadows of the night."
     },
     "Lamington cake": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Squares of sponge cake cloaked in a sinister chocolate coating, their coconut shavings resembling the tattered remains of the undead."
     },
     "Pancakes": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Thin, flat cakes that seem to have been flipped from the nightmares of a haunted kitchen, waiting to ensnare unsuspecting souls."
     },
     "Baklava": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Layers of sweetness wrapped in a phyllo pastry coffin, tempting even the most hardened horror enthusiasts."
     },
     "Fruit Cake": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A cake brimming with dried fruit and nuts, like the remnants of a cursed banquet, waiting to ensnare the unwary."
     },
     "Tea Cookies": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "Tiny, round morsels of sweetness, hauntingly crisp and perfect for a midnight feast among the restless dead."
     },
     "Bread": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Coming Soon"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Coming Soon",
+      "Description": "A staple sustenance, seemingly ordinary yet hiding sinister secrets within its doughy depths."
     }
   },
   "DRINKS": {
@@ -410,28 +552,36 @@
       "Price": 10,
       "Available": true,
       "OnHand": 28,
-      "Nutrition": "Coming Soon"
+      "Nutrition": "Coming Soon",
+      "Description": "A hot brew concocted from the roasted and ground seeds of a tropical shrub, rumored to invigorate even the weariest survivor in the midst of a zombie apocalypse."
     },
     "Espresso": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Energy: 278.8 Cal. Proteins: 4.5 g. Carbs: 49.1 g. Fats 7.2 g. Water: 236.6 g."
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Energy: 278.8 Cal. Proteins: 4.5 g. Carbs: 49.1 g. Fats 7.2 g. Water: 236.6 g.",
+      "Description": "A potent elixir crafted by pressurizing live steam or boiling water through dark-roast coffee beans, the perfect companion for the sleepless nights haunted by the undead."
     },
     "Tea": {
       "Price": 10,
       "Available": true,
       "OnHand": 8,
-      "Nutrition": "Energy: 224.5 Cal. Proteins: 700.8 mg. Carbs: 55.1 g. Fats: 161.5 mg. Water: 301.1 g"
+      "Nutrition": "Energy: 224.5 Cal. Proteins: 700.8 mg. Carbs: 55.1 g. Fats: 161.5 mg. Water: 301.1 g",
+      "Description": "A steaming infusion brewed from the dried, crushed leaves of the tea plant, offering solace and warmth amidst the chilling horrors of a zombie-infested world."
     },
     "English Tea": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Energy: 260.8 Cal. Proteins: 3.2 g. Carbs: 54.6 g. Fats: 3.3 g. Water: 341.9 g."
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Energy: 260.8 Cal. Proteins: 3.2 g. Carbs: 54.6 g. Fats: 3.3 g. Water: 341.9 g.",
+      "Description": "A classic blend of black teas, reminiscent of times long gone, a taste that echoes through the corridors of history amidst the chaos of the undead."
     },
     "Hot Chocolate": {
       "Price": 10,
-      "Available": false,
-      "Nutrition": "Energy: 425.5 Cal. Proteins: 10.2 g. Carbs: 52.8 g. Fats: 19.3 g. Water: 228.1 g"
+      "Available": true,
+      "OnHand": 0,
+      "Nutrition": "Energy: 425.5 Cal. Proteins: 10.2 g. Carbs: 52.8 g. Fats: 19.3 g. Water: 228.1 g",
+      "Description": "A warming concoction of milk or water, sugar, and cocoa, a comforting treat to soothe the nerves when the night is darkest and the zombies roam free."
     }
   }
 }

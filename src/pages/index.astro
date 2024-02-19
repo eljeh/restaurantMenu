@@ -53,7 +53,7 @@ import Soups from '../components/Soups.astro';
     justify-content: center;
     align-items: center;
     color: var(--body-ftclr);
-    font-size: clamp(18px, 1.25vw, 32px);
+    font-size: clamp(18px, 1.5vh, 24px);
     line-height: 1.5;
     padding: 1em;
   }
@@ -109,32 +109,39 @@ import Soups from '../components/Soups.astro';
   .menu > div {
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
+  }
+  .menu > div:first-of-type {
+    margin-top: 0;
   }
   .category {
     max-width: 32rem;
     text-align: left;
     width: 100%;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
   }
 
   .title {
     text-align: center;
     margin-top: 0;
-    margin-bottom: 2rem;
-    font-size: 1.5em;
+    margin-bottom: 0;
+    font-size: 1.75em;
   }
   .item {
     display: inline-block;
     width: 100%;
+    margin-bottom: 1rem;
   }
   .item > .title {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 1.25em;
+    margin: 0;
   }
   .title h3 {
     margin: 0;
+    text-align: left;
   }
   .title .price {
     font-size: 1em;
@@ -142,5 +149,6 @@ import Soups from '../components/Soups.astro';
   }
   P {
     margin: 0;
+    font-size: 0.75em;
   }
 </style>
