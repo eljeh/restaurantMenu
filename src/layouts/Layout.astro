@@ -36,19 +36,12 @@ const { title } = Astro.props;
 </html>
 <style is:global>
   :root {
-    --accent: 136, 58, 234;
-    --accent-light: 224, 204, 250;
-    --accent-dark: 49, 10, 101;
-    --accent-gradient: linear-gradient(
-      45deg,
-      rgb(var(--accent)),
-      rgb(var(--accent-light)) 30%,
-      white 60%
-    );
+    --body-ftclr: #f8f8f8;
+    --body-gbclr: #13151a;
   }
   html {
     font-family: system-ui, sans-serif;
-    background: #13151a;
+    background: var(--body-gbclr);
     background-size: 224px;
   }
   .specialElite {

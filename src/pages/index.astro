@@ -38,8 +38,6 @@ import Soups from '../components/Soups.astro';
 
 <style is:global>
   :root {
-    --body-color: #f8f8f8;
-    --secondary: #f8f8f8;
   }
   body {
     background: url('../assets/images/black-chalkboard.webp') no-repeat center
@@ -54,7 +52,7 @@ import Soups from '../components/Soups.astro';
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--body-color);
+    color: var(--body-ftclr);
     font-size: clamp(18px, 1.25vw, 32px);
     line-height: 1.5;
     padding: 1em;
@@ -65,23 +63,28 @@ import Soups from '../components/Soups.astro';
     line-height: 0.4;
     letter-spacing: -0.05em;
   }
-  .logo:before {
+
+  .logo:before,
+  .logo:after {
     content: '';
     display: inline-block;
+    background-color: var(--body-ftclr);
+    border-top-left-radius: 0.125em;
+    border-top-right-radius: 0.125em;
+    border-bottom-left-radius: 0.125em;
+    border-bottom-right-radius: 0.125em;
+  }
+  .logo:before {
     width: 2.25em;
     height: 0.75em;
-    background-color: var(--body-color);
     border-top-left-radius: 1.5em;
     border-top-right-radius: 1.5em;
     border-bottom-left-radius: 0.25em;
     border-bottom-right-radius: 0.25em;
   }
   .logo:after {
-    content: '';
-    display: inline-block;
     width: 2.25em;
     height: 0.35em;
-    background-color: var(--body-color);
     border-top-left-radius: 0.125em;
     border-top-right-radius: 0.125em;
     border-bottom-left-radius: 0.125em;
@@ -99,20 +102,22 @@ import Soups from '../components/Soups.astro';
     font-size: 1.75em;
   }
   .menu {
-    columns: 300px 3;
+    columns: 32rem 3;
     column-gap: 4rem;
-    column-rule: 1px solid var(--body-color);
+    column-rule: 1px solid var(--body-ftclr);
   }
   .menu > div {
     display: flex;
     justify-content: center;
   }
   .category {
-    max-width: 38rem;
+    max-width: 32rem;
     text-align: left;
     width: 100%;
+    margin-top: 4rem;
   }
-  h2.title {
+
+  .title {
     text-align: center;
     margin-top: 0;
     margin-bottom: 2rem;
@@ -121,7 +126,6 @@ import Soups from '../components/Soups.astro';
   .item {
     display: inline-block;
     width: 100%;
-    margin-bottom: 4rem;
   }
   .item > .title {
     display: flex;
