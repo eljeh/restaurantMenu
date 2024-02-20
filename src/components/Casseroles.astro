@@ -59,11 +59,9 @@ import CasserolesIcon from './CasserolesIcon.astro';
 
           // Create paragraph for item details
           const itemDetails = document.createElement('p');
-          itemDetails.innerHTML += `${itemData.Nutrition}`;
-          itemDetails.innerHTML += `${itemData.Description}`;
+          itemDetails.innerHTML += `${itemData.Description} <br>`;
+          itemDetails.innerHTML += `<i>Nutrition: ${itemData.Nutrition}</i>`;
           itemDiv.appendChild(itemDetails);
-
-          // Append item div to category divs
           categoryDiv.appendChild(itemDiv);
         }
       }
