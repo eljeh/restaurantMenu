@@ -1,0 +1,6 @@
+_key,Price,Available,OnHand,Nutrition,Description
+Coffee Black,10,true,28,Coming Soon,"A hot brew concocted from the roasted and ground seeds of a tropical shrub, rumored to invigorate even the weariest survivor in the midst of a zombie apocalypse."
+Espresso,10,true,0,Energy: 278.8 Cal. Proteins: 4.5 g. Carbs: 49.1 g. Fats 7.2 g. Water: 236.6 g.,"A potent elixir crafted by pressurizing live steam or boiling water through dark-roast coffee beans, the perfect companion for the sleepless nights haunted by the undead."
+Tea,10,true,8,Energy: 224.5 Cal. Proteins: 700.8 mg. Carbs: 55.1 g. Fats: 161.5 mg. Water: 301.1 g,"A steaming infusion brewed from the dried, crushed leaves of the tea plant, offering solace and warmth amidst the chilling horrors of a zombie-infested world."
+English Tea,10,true,0,Energy: 260.8 Cal. Proteins: 3.2 g. Carbs: 54.6 g. Fats: 3.3 g. Water: 341.9 g.,"A classic blend of black teas, reminiscent of times long gone, a taste that echoes through the corridors of history amidst the chaos of the undead."
+Hot Chocolate,10,true,0,Energy: 425.5 Cal. Proteins: 10.2 g. Carbs: 52.8 g. Fats: 19.3 g. Water: 228.1 g,"A warming concoction of milk or water, sugar, and cocoa, a comforting treat to soothe the nerves when the night is darkest and the zombies roam free."

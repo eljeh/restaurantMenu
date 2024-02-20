@@ -1,0 +1,13 @@
+Name,Price,Available,OnHand,Nutrition,Description
+Grilled Meat,10,true,8,Energy: 109.3 Cal. | Proteins: 4.7 g. | Carbs: 22.2 g. | Fats: 184.9 mg. | Water: 148.6 g,"Sizzling meat, cooked on a grill, reminiscent of a survivor's last meal in a zombie-infested world."
+Grilled Rabbit Legs,10,true,0,Coming Soon,"Tender rabbit legs, charred to perfection on a grill, fit for a post-apocalyptic feast."
+Grilled Poultry Meat,10,true,0,Energy: 238.0 Cal. | Proteins: 29.0 g. | Carbs: 215.4 mg. | Fats: 13.5 g. | Water: 121.7 g.,Description Coming Soon
+Grilled Poultry Drumsticks,10,true,2,Energy: 357.1 Cal. | Proteins: 43.5 g. | Carbs: 323.3 mg. | Fats: 20.2 g. | Water: 182.7 g.,Description Coming Soon
+Burger,10,true,0,Coming Soon,A meat patty between two slices of bread.
+Cheeseburger,10,true,15,Coming Soon,"A meaty delight, sandwiched between two slices of bread, with oozing cheese, perfect for a horror movie marathon."
+Chevaps,10,true,0,Coming Soon,A skinless sausage.
+Sausages,10,true,8,Energy: 109.3 Cal. | Proteins: 4.7 g. | Carbs: 22.2 g. Fats: 184.9 mg. | Water: 148.6 g,Ground and seasoned meat stuffed inside a casing (usually intestines). A staple for survivors in a world overrun by the undead.
+Fried Eggs,10,true,0,Coming Soon,Eggs cooked in a pan.
+Grilled Veggie,10,true,6,Energy: 109.3 Cal. | Proteins: 4.7 g. | Carbs: 22.2 g. Fats: 184.9 mg. | Water: 148.6 g,"Vegetables charred over an open flame, a rare sight in a world overrun by zombies."
+Grilled Mushroom,10,true,0,Coming Soon,Mushrooms cooked on a grill.
+Grilled Fish,10,true,18,Energy: 284.1 Cal. | Proteins: 60.2 g. | Fats: 4.8 g. | Water: 327.2 g.,"Fresh fish, grilled to perfection, offering a taste of normalcy in a world plagued by horror."
