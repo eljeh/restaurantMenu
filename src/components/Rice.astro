@@ -48,9 +48,12 @@ import RiceIcon from './RiceIcon.astro';
           itemHeading.innerHTML += `<h3>${itemName}</h3> <div class="price">$${itemData.Price}</div>`;
           itemDiv.appendChild(itemHeading);
 
-          // Create div for item details
+          // Create div for availablity
           const itemAvailablity = document.createElement('div');
-          itemAvailablity.innerHTML += `On Hand: ${itemData.OnHand}`;
+          itemAvailablity.innerHTML +=
+            itemData.OnHand > 0
+              ? `${itemData.OnHand} are ready to go!`
+              : `Prep time is up to 24hrs`;
           itemDiv.appendChild(itemAvailablity);
 
           // Create paragraph for item details
