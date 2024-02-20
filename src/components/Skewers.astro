@@ -1,8 +1,10 @@
 ---
-
+import SkewerIcon from './SkewerIcon.astro';
 ---
 
-<div id='menuSKEWERS'></div>
+<div id='menuSKEWERS'>
+  <SkewerIcon />
+</div>
 
 <script is='inline'>
   const skewersContainer = document.getElementById('menuSKEWERS');
@@ -35,6 +37,7 @@
       categoryHeading.classList.add('title');
       categoryHeading.textContent = 'SKEWERS';
       categoryDiv.appendChild(categoryHeading);
+
       // Loop through items in the category
       for (const [itemName, itemData] of Object.entries(categoryData)) {
         if (itemData.Available) {

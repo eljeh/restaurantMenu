@@ -1,8 +1,10 @@
 ---
-
+import CasserolesIcon from './CasserolesIcon.astro';
 ---
 
-<div id='menuCASSEROLES'></div>
+<div id='menuCASSEROLES'>
+  <CasserolesIcon />
+</div>
 
 <script is='inline'>
   const casserolesContainer = document.getElementById('menuCASSEROLES');
@@ -61,4 +63,3 @@
     })
     .catch((error) => console.error('Error fetching menu data:', error));
 </script>
-

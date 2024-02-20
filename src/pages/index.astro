@@ -57,18 +57,24 @@ import Soups from '../components/Soups.astro';
     line-height: 1.5;
     padding: 1em;
   }
+
+  h1 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 3em;
+  }
   .logo {
     text-transform: uppercase;
-    font-size: 1.25em;
+    font-size: 1.5em;
     line-height: 0.4;
     letter-spacing: -0.05em;
   }
-
   .logo:before,
   .logo:after {
     content: '';
     display: inline-block;
-    background-color: var(--body-ftclr);
+    /* background-color: var(--body-ftclr); */
+    background-color: #b6a830;
     border-top-left-radius: 0.125em;
     border-top-right-radius: 0.125em;
     border-bottom-left-radius: 0.125em;
@@ -96,11 +102,6 @@ import Soups from '../components/Soups.astro';
   .logo > .yum {
     font-size: 1.25em;
   }
-  h1 {
-    text-align: center;
-    margin: 2rem 0;
-    font-size: 1.75em;
-  }
   .menu {
     columns: 32rem 3;
     column-gap: 4rem;
@@ -109,7 +110,8 @@ import Soups from '../components/Soups.astro';
   .menu > div {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 4rem;
+    position: relative;
   }
   .menu > div:first-of-type {
     margin-top: 0;
