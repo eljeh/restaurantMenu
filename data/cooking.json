@@ -4,7 +4,7 @@
       "Price": 10,
       "Available": true,
       "OnHand": 8,
-      "Nutrition": "Energy: 109.3 Cal. | Proteins: 4.7 g. | Carbs: 22.2 g. | Fats: 184.9 mg. | Water: 148.6 g",
+      "Nutrition": "<strong>Energy:</strong> 109.3 Cal. | Proteins: 4.7 g. | Carbs: 22.2 g. | Fats: 184.9 mg. | Water: 148.6 g",
       "Description": "Sizzling meat, cooked on a grill, reminiscent of a survivor's last meal in a zombie-infested world."
     },
     "Grilled Rabbit Legs": {

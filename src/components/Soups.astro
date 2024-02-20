@@ -47,9 +47,15 @@ import SoupsIcon from './SoupsIcon.astro';
           itemHeading.innerHTML += `<h3>${itemName}</h3> <div class="price">$${itemData.Price}</div>`;
           itemDiv.appendChild(itemHeading);
 
+          // Create div for item details
+          const itemAvailablity = document.createElement('div');
+          itemAvailablity.innerHTML += `On Hand: ${itemData.OnHand}`;
+          itemDiv.appendChild(itemAvailablity);
+
           // Create paragraph for item details
           const itemDetails = document.createElement('p');
-          itemDetails.innerHTML = `${itemData.Description}`;
+          itemDetails.innerHTML += `${itemData.Nutrition}`;
+          itemDetails.innerHTML += `${itemData.Description}`;
           itemDiv.appendChild(itemDetails);
 
           // Append item div to category div
