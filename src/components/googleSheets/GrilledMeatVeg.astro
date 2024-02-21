@@ -16,7 +16,7 @@ import GrillIcon from '../icon/GrillIcon.astro';
           <h3>${itemData.Name}</h3>
           <div class="price">$${itemData.Price}</div>
         </div>
-        <div>${itemData.OnHand > 0 ? `${itemData.OnHand}, ready to go!` : `Prep time can take up to 24hrs`}</div>
+        <div>${itemData.OnHand > 0 ? `${itemData.OnHand} ready to go!` : `Prep time can take up to 24hrs`}</div>
         <p>${itemData.Description} <br><i>Nutrition: ${itemData.Nutrition}</i></p>
       </div>
     `;
