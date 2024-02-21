@@ -16,7 +16,7 @@ import SkewerIcon from '../icon/SkewerIcon.astro';
           <h3>${itemData.Name}</h3>
           <div class="price">$${itemData.Price}</div>
         </div>
-        <div>${itemData.OnHand > 0 ? `${itemData.OnHand} are ready to go!` : `Prep time is up to 24hrs`}</div>
+        <div>${itemData.OnHand > 0 ? `${itemData.OnHand}, ready to go!` : `Prep time can take up to 24hrs`}</div>
         <p>${itemData.Description} <br><i>Nutrition: ${itemData.Nutrition}</i></p>
       </div>
     `;
@@ -28,30 +28,48 @@ import SkewerIcon from '../icon/SkewerIcon.astro';
   )
     .then((response) => response.json())
     .then((data) => {
+      // Check if the specified category exists in the menu data
+      const categoryData = data;
+      if (!categoryData) {
+        console.error('SKEWERS category not found in the menu data.');
+        return;
+      }
+      // Check if any item is available in the category
       const anyItemAvailable = Object.values(data).some(
         (item) => item.Available,
       );
 
+      // If no item is available, hide the container
       if (!anyItemAvailable) {
         skewersContainer.style.display = 'none';
+        //console.log('noItemAvailable ' + anyItemAvailable);
         return;
+      } else {
+        //console.log('anyItemAvailable ' + anyItemAvailable);
       }
 
+      // Generate HTML content for menu
       const categoryDiv = document.createElement('div');
       categoryDiv.classList.add('category');
 
+      // Create heading for category
       const categoryHeading = document.createElement('h2');
       categoryHeading.classList.add('title');
       categoryHeading.textContent = 'SKEWERS';
       categoryDiv.appendChild(categoryHeading);
 
+      // Loop through items in the category
       Object.entries(data).forEach(([itemName, itemData]) => {
-        if (itemData.Available) {
+        if (itemData.Available == 'TRUE') {
+          //console.log('Item is available:', itemData.Name);
           const itemHTML = generateItemHTML(itemName, itemData);
           categoryDiv.innerHTML += itemHTML;
+        } else {
+          //console.log('Item not available:', itemData.Name);
         }
       });
 
+      // Append category div to grilled container
       skewersContainer.appendChild(categoryDiv);
     })
     .catch((error) => console.error('Error fetching menu data:', error));
